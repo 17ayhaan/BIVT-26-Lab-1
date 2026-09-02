@@ -8,6 +8,8 @@ namespace Lab1
 
             // code here
 
+            asdf = true;
+
             // end
 
             return answer;
