@@ -46,7 +46,7 @@
             int answer = 0;
 
             // code here
-            
+            answer = Math.Max(a, Math.Max(b, c));
             // end
 
             return answer;
@@ -69,7 +69,24 @@
             bool answer = false;
 
             // code here
+            if((x>=-1)&&(x<=1))
+            {
+                if (x<0)
+                {
+                    if ((y>=0) && (y<=1+x))
+                    {
+                        answer = true;
+                    }
 
+                }
+                else
+                {
+                   if((y>=0) && (y<=1-x))
+                            {
+                        answer = true;
+                    }
+                }
+            }
             // end
 
             return answer;
